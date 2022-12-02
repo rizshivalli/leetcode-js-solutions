@@ -25,6 +25,9 @@ var halvesAreAlikeUsingArray = function (s) {
   return count === 0;
 };
 
+// Time complexity: O(N)
+// Space complexity: O(1)
+
 // solve using set
 var halvesAreAlikeUsingSet = function (s) {
   let vowels = new Set(["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]); // Create a set of vowels
@@ -47,6 +50,8 @@ var halvesAreAlikeUsingSet = function (s) {
   return count === 0;
 };
 
+// Time complexity: O(N)
+
 // solve using regex
 var halvesAreAlikeUsingRegex = function (s) {
   let count = 0;
@@ -67,3 +72,5 @@ var halvesAreAlikeUsingRegex = function (s) {
 
   return count === 0;
 };
+
+// Time complexity: O(N)
