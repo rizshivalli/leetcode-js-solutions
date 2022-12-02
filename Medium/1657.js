@@ -64,3 +64,6 @@ var closeStrings = function (word1, word2) {
 
   return true;
 };
+
+// time complexity: O(n log n) where n is the length of the words
+// space complexity: O(n)
