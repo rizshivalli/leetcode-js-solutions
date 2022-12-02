@@ -27,3 +27,6 @@ var uniqueOccurrences = function (arr) {
 
   return true;
 };
+
+// Time Complexity: O(n) - Iterate through arr
+// Space Complexity: O(n) - Create map and set
